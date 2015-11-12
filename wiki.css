@@ -6,8 +6,8 @@ h1{
 }
 
 .change{
-  margin-top: auto;
-  margin-left: auto;
+  margin-top: 400px;
+  margin-left: 400px;
 }
 form textarea{
   display:inline-block;
