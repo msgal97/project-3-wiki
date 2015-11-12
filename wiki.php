@@ -32,5 +32,12 @@ $safe_content = htmlentities($content);
 
 ?></textarea>
 </form>
+<script src="jquery-1.11.3.min.js"></script>
+<script>
+$('#content').click(function() {
+    $('form').removeClass('hidden');
+    $('#content').addClass('hidden');
+});
+</script>
 </body>
 </html>
