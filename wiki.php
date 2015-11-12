@@ -32,9 +32,10 @@ if(isset($_GET['content'])){
 
 
 <form action="wiki.php">
-
-    <input type="submit" value="Save">
+    Share Your Feelings <br/>
     <textarea name="content" rows="8" cols="80">
+    </textarea><br/>
+    <input type="submit" value="Save">
 
     </textarea>
 </form>
