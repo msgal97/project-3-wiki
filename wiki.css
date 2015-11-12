@@ -1,11 +1,15 @@
 body {
   background-color: #6495ed;
 }
+h1{
+  text-align: center;
+}
+
 
 .hidden {
     display: none;
 }
 
-#content:hover {
+form input:hover {
     background: #ff9;
 }
