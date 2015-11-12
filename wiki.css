@@ -5,7 +5,11 @@ h1{
   text-align: center;
 }
 form textarea{
-  display:center;
+  display:inline-block;
+}
+
+form input{
+  display: block;
 }
 
 form input:hover {
