@@ -6,7 +6,10 @@
         <title>Wiki</title>
     </head>
     <body>
+      <h1>What are your thoughts at the moment</h1>
+
 <?php
+
 if (isset($_GET['content'])) {
     $content = $_GET['content'];
     file_put_contents('wiki.txt', $content);
@@ -20,6 +23,7 @@ if (file_exists('wiki.txt')) {
 $safe_content = htmlentities($content);
 //echo $safe_content;
 ?>
+
 <div id="content">
     <?php echo $safe_content; ?>
   </div>
@@ -32,7 +36,7 @@ $safe_content = htmlentities($content);
 
 ?></textarea>
 </form>
-<script src="jquery-1.11.3.min.js"></script>
+
 <script>
 $('#content').click(function() {
     $('form').removeClass('hidden');
