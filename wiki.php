@@ -29,7 +29,7 @@ if(isset($_GET['content'])){
 ?>
 
 <div id="content">
-    <?php echo $safe_content; ?>
+    
   </div>
 <form action="wiki.php">
 
