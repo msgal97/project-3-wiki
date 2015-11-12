@@ -6,7 +6,7 @@
         <title>Wiki</title>
     </head>
     <body>
-      <h1>What are your thoughts at the moment</h1>
+      <h1>What are your thoughts on this shade of blue</h1>
 
 <?php
 
