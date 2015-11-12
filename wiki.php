@@ -29,23 +29,16 @@ if(isset($_GET['content'])){
 ?>
 
 <div id="content">
-    
-  </div>
+
+
 <form action="wiki.php">
 
     <input type="submit" value="Save">
-    <textarea name="content" rows="8" cols="80"><?php
+    <textarea name="content" rows="8" cols="80">
 
-//echo $safe_content;
-
-?></textarea>
+    </textarea>
 </form>
+</div>
 
-<script>
-$('#content').click(function() {
-    $('form').removeClass('hidden');
-    $('#content').addClass('hidden');
-});
-</script>
 </body>
 </html>
