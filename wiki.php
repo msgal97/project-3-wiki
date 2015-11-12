@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="wiki.css">
         <meta charset="utf-8">
         <title>Wiki</title>
-        <link rel="stylesheet" href="wiki.css">
     </head>
     <body>
 <?php
