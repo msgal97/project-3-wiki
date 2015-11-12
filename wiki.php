@@ -30,7 +30,7 @@ if(isset($_GET['content'])){
 
 <div id="content">
 
-
+<div class="change">
 <form action="wiki.php">
     Share Your Feelings <br/>
     <textarea name="content" rows="8" cols="80">
