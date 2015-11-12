@@ -17,7 +17,7 @@ if (file_exists('wiki.txt')) {
     $content = '(foo)';
 }
 $safe_content = htmlentities($content);
-echo $safe_content;
+//echo $safe_content;
 ?>
 <div id="content">
     <?php echo $safe_content; ?>
