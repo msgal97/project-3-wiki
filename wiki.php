@@ -6,7 +6,7 @@
         <title>Wiki</title>
     </head>
     <body>
-      <h1>What are your thoughts on this shade of blue</h1>
+      <h1>What are your thoughts on this shade of blue?</h1>
 
 <?php
 
@@ -35,7 +35,7 @@ if(isset($_GET['content'])){
     Share Your Feelings <br/>
     <textarea name="content" rows="8" cols="80">
     </textarea><br/>
-    <input type="submit" value="Save">
+    <input type="submit" value="Submit">
 
     </textarea>
 </form>
