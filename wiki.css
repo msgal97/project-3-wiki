@@ -1,11 +1,11 @@
+body {
+  background-color: #6495ed;
+}
+
 .hidden {
     display: none;
 }
 
 #content:hover {
     background: #ff9;
-}
-
-body {
-  background-color: #6495ed;
 }
